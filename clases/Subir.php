@@ -227,14 +227,14 @@ class Subir {
             case -3:
                 return "Extension no permitida o mal escrita.";
             case -4:
-                return "No existe la carpeta de destino.";
+                return "No existía la carpeta de destino pero 
+                    se creó correctamente.";
             case -5:
                 return "El archivo a subir ya existe en la carpeta de destino.";
             case -6:
                 return "Fallo al renombrar el archivo a subir.";
             case -7:
-                return "No existía la carpeta de destino pero 
-                    se creó correctamente.";
+                return "Fallo al crear la carpeta de destino.";
             case -8:
                 return "No se ha creado la carpeta de destino.";
         }
