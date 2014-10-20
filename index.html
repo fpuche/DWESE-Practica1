@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form action="procesarSubir.php" method="post" enctype="multipart/form-data">
+            <input type="text" name="nombre"><br/>
+            <input type="radio" name="valor" value="1"/>Reemplazar<br/>
+            <input type="radio" name="valor" value="2" />Renombrar<br/>
+            <input type="file" name="archivo[]" multiple/><br/>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
